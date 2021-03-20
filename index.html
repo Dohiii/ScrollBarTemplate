@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scroll</title>
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- header -->
+  <header id="home">
+    <!-- navbar -->
+    <nav id="nav">
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img src="./theater.png" alt="logo" class="logo">
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <div class="links-container">
+          <ul class="links">
+            <li>
+              <a href="#home" class="scroll-link">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="scroll-link">About</a>
+            </li>
+            <li>
+              <a href="#services" class="scroll-link">Cinemas</a>
+            </li>
+            <li>
+              <a href="#tours" class="scroll-link">Films</a>
+            </li>
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- banner -->
+    <div class="banner">
+      <div class="container">
+        <h1>Cinema Club</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet quaerat vel pariatur at aut incidunt eos
+          rerum aliquid laudantium repellat harum, praesentium minus, quos nobis a sequi? Consequatur, facilis eveniet!
+          Eligendi quidem commodi inventore doloribus cumque quod laudantium animi aperiam quaerat dicta similique, rem
+          quam neque, recusandae dolore ratione unde id tenetur magnam porro nihil deleniti! Exercitationem, architecto
+          quisquam. Cum.</p>
+        <a href="#tours" class="scroll-link btn btn-white">explore films</a>
+      </div>
+    </div>
+  </header>
+  <!-- about -->
+  <section id="about" class="section">
+    <div class="title">
+      <h2>about <span>me</span></h2>
+    </div>
+  </section>
+  <!-- Cinemas -->
+  <section id="services" class="section">
+    <div class="title">
+      <h2>Cinemas</h2>
+    </div>
+  </section>
+  <!-- Films -->
+  <section id="tours" class="section">
+    <div class="title">
+      <h2>Films</h2>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="section">
+    <p>
+      copyright &copy: vally's cinema club <span id="date"></span>
+      all rights reserved
+    </p>
+  </footer>
+  <!-- back to top button -->
+  <a href="#home" class="scroll-link top-link">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  <!-- javascript -->
+  <script src="app.js"></script>
+</body>
+
+</html>
